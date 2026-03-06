@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Jagath Jewellers Badulla</title>
+  <meta name="description"
+    content="Contact Jagath Jewellers in Badulla for bridal consultations, custom jewellery orders, and price inquiries." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png"
+    href="https://images.pexels.com/photos/1232932/pexels-photo-1232932.jpeg?auto=compress&cs=tinysrgb&w=64" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">J</span>
+        <span class="logo-text">
+          Jagath <span>Jewellers</span>
+          <small>Badulla</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="siteNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact Us</p>
+        <h1>We’re Here to Help You Shine</h1>
+        <p class="page-hero-subtitle">
+          Reach out for bridal consultations, custom jewellery designs, or to check the latest
+          gold karat prices in Sri Lanka.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <h2>Send Us a Message</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required placeholder="Enter your name" />
+              <small class="error-message" data-for="name"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="name@example.com" />
+              <small class="error-message" data-for="email"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number (Sri Lanka)</label>
+              <input type="tel" id="phone" name="phone" required placeholder="+94 XX XXX XXXX" />
+              <small class="error-message" data-for="phone"></small>
+            </div>
+
+            <div class="form-group">
+              <label for="type">Enquiry Type</label>
+              <select id="type" name="type">
+                <option value="bridal">Bridal Package</option>
+                <option value="custom">Custom Jewellery</option>
+                <option value="pricing">Gold Price / Availability</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required
+                placeholder="Tell us how we can help..."></textarea>
+              <small class="error-message" data-for="message"></small>
+            </div>
+
+            <button type="submit" class="btn btn-primary full-width">Submit Enquiry</button>
+            <p class="form-success" id="formSuccess" hidden>
+              Thank you for contacting Jagath Jewellers. We will get back to you soon.
+            </p>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <div class="contact-panel">
+            <h2>Showroom Details</h2>
+            <p class="contact-text">
+              <strong>Jagath Jewellers</strong><br />
+              Badulla, Sri Lanka
+            </p>
+            <p class="contact-text">
+              Phone: +94 XX XXX XXXX<br />
+              WhatsApp: +94 XX XXX XXXX<br />
+              Email: info@jagathjewellers.lk
+            </p>
+            <p class="contact-text">
+              <strong>Opening Hours</strong><br />
+              Monday – Saturday: 9.00 AM – 7.00 PM<br />
+              Sunday: 9.00 AM – 2.00 PM
+            </p>
+          </div>
+
+          <div class="contact-panel">
+            <h2>Map & Directions</h2>
+            <p class="contact-text">
+              Find us in central Badulla. Use the map below to get directions from your current
+              location.
+            </p>
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.123456!2d79.123456!3d7.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabcdef123456!2sJagath%20Jewellers%2C%20Badulla!5e0!3m2!1sen!2slk!4v1678901234567!5m2!1sen!2slk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-title">Jagath Jewellers – Badulla</p>
+        <p class="footer-text">
+          Visit us for bridal consultations, gold jewellery, and custom designs.
+        </p>
+      </div>
+      <div class="footer-cols">
+        <div>
+          <p class="footer-heading">Contact</p>
+          <p class="footer-text">Badulla, Sri Lanka</p>
+          <p class="footer-text">Phone: +94 XX XXX XXXX</p>
+        </div>
+        <div>
+          <p class="footer-heading">Quick Links</p>
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© <span id="year"></span> Jagath Jewellers. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

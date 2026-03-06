@@ -1,0 +1,22 @@
+{
+  "name": "jagath-jewellers-website",
+  "version": "1.0.0",
+  "description": "Responsive multi-page website and PWA for Jagath Jewellers in Badulla, Sri Lanka.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "jewellery",
+    "gold",
+    "bridal",
+    "pwa",
+    "sri-lanka",
+    "badulla"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
+

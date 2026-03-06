@@ -1,0 +1,21 @@
+{
+  "name": "Jagath Jewellers – Badulla",
+  "short_name": "Jagath Jewellers",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "https://images.pexels.com/photos/1232932/pexels-photo-1232932.jpeg?auto=compress&cs=tinysrgb&w=192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://images.pexels.com/photos/1232932/pexels-photo-1232932.jpeg?auto=compress&cs=tinysrgb&w=512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
